@@ -1,0 +1,459 @@
+******************************         Login Passed... Welcome       ******************************
+
+Loading libraries, please wait...
+[08:18:19 INFO]: Starting minecraft server version 1.12.2
+[08:18:19 INFO]: Loading properties
+[08:18:19 INFO]: Default game type: SURVIVAL
+[08:18:19 INFO]: This server is running CraftBukkit version git-Spigot-642f6d2-6103339 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[08:18:19 INFO]: Server Ping Player Sample Count: 12
+[08:18:19 INFO]: Using 4 threads for Netty based IO
+[08:18:19 INFO]: Debug logging is disabled
+[08:18:19 INFO]: Generating keypair
+[08:18:19 INFO]: Starting Minecraft server on 185.38.248.184:25955
+[08:18:19 INFO]: Using epoll channel type
+[08:18:19 INFO]: Set PluginClassLoader as parallel capable
+[08:18:20 INFO]: [CoreProtect] Loading CoreProtect v2.15.1
+[08:18:20 INFO]: [WorldEdit] Loading WorldEdit v6.1.7;dd00bb1
+[08:18:20 INFO]: [ColoredSigns] Loading ColoredSigns v2.0
+[08:18:20 INFO]: [iChat] Loading iChat v2.1.1
+[08:18:20 INFO]: [HealthBar] Loading HealthBar v1.8.3
+[08:18:20 INFO]: [Skript] Loading Skript v2.2-dev29
+[08:18:20 INFO]: [OpenInv] Loading OpenInv v3.3.2
+[08:18:20 INFO]: [ClearLag] Loading ClearLag v2.9.7
+[08:18:20 INFO]: [AdvancedBan] Loading AdvancedBan v2.1.3-RELEASE
+[08:18:20 INFO]: [WorldGuard] Loading WorldGuard v6.2.1;84bc322
+[08:18:20 INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5.0-b727
+[08:18:20 INFO]: [AutoSaveWorld] Loading AutoSaveWorld v4.15
+[08:18:20 INFO]: [SkinsRestorer] Loading SkinsRestorer v13.5-SNAPSHOT
+[08:18:20 INFO]: [SuperTrails] Loading SuperTrails v9.6.7
+[08:18:20 INFO]: [iDisguise] Loading iDisguise v5.6.3
+[08:18:20 INFO]: [ServerMotd] Loading ServerMotd v1.3
+[08:18:20 INFO]: [ImageOnMap] Loading ImageOnMap v2.99
+[08:18:20 INFO]: [HeadDrops] Loading HeadDrops v2.0
+[08:18:20 INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[08:18:20 WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[08:18:20 INFO]: [Multiverse-Portals] Loading Multiverse-Portals v2.5.0-b751
+[08:18:20 INFO]: [Vault] Loading Vault v1.5.6-b49
+[08:18:20 INFO]: [CustomTabBukkit] Loading CustomTabBukkit v1.3
+[08:18:20 INFO]: [Backpacks] Loading Backpacks v4.1
+[08:18:20 INFO]: [ChestShop] Loading ChestShop v3.8.12
+[08:18:20 INFO]: [Essentials] Loading Essentials v2.0.1-b491
+[08:18:20 INFO]: [SimpleRename] Loading SimpleRename v10.0
+[08:18:20 INFO]: [MarriageMaster] Loading MarriageMaster v1.31.8
+[08:18:20 INFO]: [HolographicDisplays] Loading HolographicDisplays v2.2.6
+[08:18:20 INFO]: [Citizens] Loading Citizens v2.0.22-SNAPSHOT (build 1487)
+[08:18:20 INFO]: [Shopkeepers] Loading Shopkeepers v1.82
+[08:18:20 INFO]: [EssentialsChat] Loading EssentialsChat v2.0.1-b491
+[08:18:20 INFO]: [AddLight] Loading AddLight v4.2.0
+[08:18:20 INFO]: [SuperVanish] Loading SuperVanish v6.0.4
+[08:18:20 INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.0.1-b491
+[08:18:20 INFO]: [AutoSaveWorld] Enabling AutoSaveWorld v4.15
+[08:18:20 INFO]: [Vault] Enabling Vault v1.5.6-b49
+[08:18:20 INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[08:18:20 INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[08:18:20 INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[08:18:20 INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[08:18:20 INFO]: [Vault] Enabled Version 1.5.6-b49
+[08:18:20 INFO]: [Backpacks] Enabling Backpacks v4.1
+[08:18:20 ERROR]: Error occurred while enabling Backpacks v4.1 (Is it up to date?)
+java.lang.NoClassDefFoundError: net/minecraft/server/v1_7_R3/EntityItem
+	at com.rb2750.backpack.CustomEntityType.<clinit>(CustomEntityType.java:15) ~[?:?]
+	at com.rb2750.backpack.Backpack.onEnable(Backpack.java:67) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337) [spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403) [spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381) [spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330) [spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:206) [spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+Caused by: java.lang.ClassNotFoundException: net.minecraft.server.v1_7_R3.EntityItem
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:105) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:100) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_66]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_66]
+	... 10 more
+[08:18:20 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08:18:20 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[08:18:20 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08:18:20 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[08:18:20 INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[08:18:20 INFO]: Preparing level "world"
+[08:18:20 INFO]: -------- World Settings For [world] --------
+[08:18:20 INFO]: Cactus Growth Modifier: 100%
+[08:18:20 INFO]: Cane Growth Modifier: 100%
+[08:18:20 INFO]: Melon Growth Modifier: 100%
+[08:18:20 INFO]: Mushroom Growth Modifier: 100%
+[08:18:20 INFO]: Pumpkin Growth Modifier: 100%
+[08:18:20 INFO]: Sapling Growth Modifier: 100%
+[08:18:20 INFO]: Wheat Growth Modifier: 100%
+[08:18:20 INFO]: NetherWart Growth Modifier: 100%
+[08:18:20 INFO]: Vine Growth Modifier: 100%
+[08:18:20 INFO]: Cocoa Growth Modifier: 100%
+[08:18:20 INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[08:18:20 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:18:20 INFO]: Mob Spawn Range: 4
+[08:18:20 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[08:18:20 INFO]: Random Lighting Updates: false
+[08:18:20 INFO]: Structure Info Saving: true
+[08:18:20 INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[08:18:20 INFO]: Max TNT Explosions: 100
+[08:18:20 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:18:20 INFO]: Item Despawn Rate: 6000
+[08:18:20 INFO]: Item Merge Radius: 2.5
+[08:18:20 INFO]: Arrow Despawn Rate: 1200
+[08:18:20 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:18:20 INFO]: View Distance: 10
+[08:18:20 INFO]: Experience Merge Radius: 3.0
+[08:18:20 INFO]: Zombie Aggressive Towards Villager: true
+[08:18:20 INFO]: Nerfing mobs spawned from spawners: false
+[08:18:21 INFO]: -------- World Settings For [world_nether] --------
+[08:18:21 INFO]: Cactus Growth Modifier: 100%
+[08:18:21 INFO]: Cane Growth Modifier: 100%
+[08:18:21 INFO]: Melon Growth Modifier: 100%
+[08:18:21 INFO]: Mushroom Growth Modifier: 100%
+[08:18:21 INFO]: Pumpkin Growth Modifier: 100%
+[08:18:21 INFO]: Sapling Growth Modifier: 100%
+[08:18:21 INFO]: Wheat Growth Modifier: 100%
+[08:18:21 INFO]: NetherWart Growth Modifier: 100%
+[08:18:21 INFO]: Vine Growth Modifier: 100%
+[08:18:21 INFO]: Cocoa Growth Modifier: 100%
+[08:18:21 INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[08:18:21 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:18:21 INFO]: Mob Spawn Range: 4
+[08:18:21 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[08:18:21 INFO]: Random Lighting Updates: false
+[08:18:21 INFO]: Structure Info Saving: true
+[08:18:21 INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[08:18:21 INFO]: Max TNT Explosions: 100
+[08:18:21 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:18:21 INFO]: Item Despawn Rate: 6000
+[08:18:21 INFO]: Item Merge Radius: 2.5
+[08:18:21 INFO]: Arrow Despawn Rate: 1200
+[08:18:21 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:18:21 INFO]: View Distance: 10
+[08:18:21 INFO]: Experience Merge Radius: 3.0
+[08:18:21 INFO]: Zombie Aggressive Towards Villager: true
+[08:18:21 INFO]: Nerfing mobs spawned from spawners: false
+[08:18:21 INFO]: -------- World Settings For [world_the_end] --------
+[08:18:21 INFO]: Cactus Growth Modifier: 100%
+[08:18:21 INFO]: Cane Growth Modifier: 100%
+[08:18:21 INFO]: Melon Growth Modifier: 100%
+[08:18:21 INFO]: Mushroom Growth Modifier: 100%
+[08:18:21 INFO]: Pumpkin Growth Modifier: 100%
+[08:18:21 INFO]: Sapling Growth Modifier: 100%
+[08:18:21 INFO]: Wheat Growth Modifier: 100%
+[08:18:21 INFO]: NetherWart Growth Modifier: 100%
+[08:18:21 INFO]: Vine Growth Modifier: 100%
+[08:18:21 INFO]: Cocoa Growth Modifier: 100%
+[08:18:21 INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[08:18:21 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:18:21 INFO]: Mob Spawn Range: 4
+[08:18:21 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[08:18:21 INFO]: Random Lighting Updates: false
+[08:18:21 INFO]: Structure Info Saving: true
+[08:18:21 INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[08:18:21 INFO]: Max TNT Explosions: 100
+[08:18:21 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:18:21 INFO]: Item Despawn Rate: 6000
+[08:18:21 INFO]: Item Merge Radius: 2.5
+[08:18:21 INFO]: Arrow Despawn Rate: 1200
+[08:18:21 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:18:21 INFO]: View Distance: 10
+[08:18:21 INFO]: Experience Merge Radius: 3.0
+[08:18:21 INFO]: Zombie Aggressive Towards Villager: true
+[08:18:21 INFO]: Nerfing mobs spawned from spawners: false
+[08:18:21 INFO]: Preparing start region for level 0 (Seed: 2790638194632125056)
+[08:18:22 INFO]: Preparing spawn area: 77%
+[08:18:22 INFO]: Preparing start region for level 1 (Seed: -5902955998007463090)
+[08:18:23 INFO]: Preparing spawn area: 95%
+[08:18:23 INFO]: Preparing start region for level 2 (Seed: -5902955998007463090)
+[08:18:23 INFO]: [CoreProtect] Enabling CoreProtect v2.15.1
+[08:18:23 INFO]: [CoreProtect] Spigot 1.13 or higher is required.
+[08:18:23 INFO]: [CoreProtect] CoreProtect was unable to start.
+[08:18:23 INFO]: [CoreProtect] Disabling CoreProtect v2.15.1
+[08:18:23 INFO]: [WorldEdit] Enabling WorldEdit v6.1.7;dd00bb1
+[08:18:24 INFO]: WEPIF: Using the Bukkit Permissions API.
+[08:18:24 INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_12_R1 as the Bukkit adapter
+[08:18:24 INFO]: [ColoredSigns] Enabling ColoredSigns v2.0
+[08:18:24 INFO]: [ColoredSigns] ColoredSigns enabling.
+[08:18:24 WARN]: [ColoredSigns] PermissionsEx support is disabled.
+[08:18:24 INFO]: [ColoredSigns] Starting services.. loading file and library's.
+[08:18:24 INFO]: [iChat] Enabling iChat v2.1.1
+[08:18:25 INFO]: [iChat] iChat is up-to-date!
+[08:18:25 INFO]: [HealthBar] Enabling HealthBar v1.8.3
+[08:18:25 INFO]: [Skript] Enabling Skript v2.2-dev29
+[08:18:25 INFO]: [Skript] Starting updater thread
+[08:18:26 INFO]: [Skript] Loaded a total of 16970 english aliases
+[08:18:26 WARN]: [Skript] There are no aliases defined for the following ids: 438, 441
+[08:18:26 INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[08:18:26 INFO]: [OpenInv] Enabling OpenInv v3.3.2
+[08:18:26 INFO]: [ClearLag] Enabling ClearLag v2.9.7
+[08:18:26 INFO]: [ClearLag] Loading modules...
+[08:18:26 INFO]: [ClearLag] Modules enabed, loading config values
+[08:18:26 INFO]: [ClearLag] Modules have been loaded!
+[08:18:26 INFO]: [ClearLag] Clearlag is now enabled!
+[08:18:26 INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.12]...
+[08:18:26 INFO]: [AdvancedBan] Enabling AdvancedBan v2.1.3-RELEASE
+[08:18:26 INFO]: [ClearLag] No updates found!
+[08:18:26 WARN]: [AutoSaveWorld] Plugin AdvancedBan attempted to establish connection http://dev.skamps.eu/api/abVer.txt in main server thread
+[08:18:26 WARN]: [AutoSaveWorld] Plugin AdvancedBan attempted to establish connection socket://dev.skamps.eu:80 in main server thread
+[08:18:27 INFO]: 
+ 
+[]=====[Enabling AdvancedBan]=====[]
+| Information:
+|   Name: AdvancedBan
+|   Developer: Leoko
+|   Version: 2.1.3-RELEASE
+|   Storage: HSQLDB (local)
+| Support:
+|   Skype: Leoko33
+|   Mail: Leoko4433@gmail.com
+| Update:
+|   You have the newest version
+[]================================[]
+ 
+[08:18:27 INFO]: [WorldGuard] Enabling WorldGuard v6.2.1;84bc322
+[08:18:27 INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[08:18:27 INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[08:18:27 INFO]: [WorldGuard] (world) Lava fire is blocked.
+[08:18:27 INFO]: [WorldGuard] (world) All fire spread is disabled.
+[08:18:27 INFO]: [WorldGuard] Loaded configuration for world 'world'
+[08:18:27 INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[08:18:27 INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[08:18:27 INFO]: [WorldGuard] (world_nether) Lava fire is blocked.
+[08:18:27 INFO]: [WorldGuard] (world_nether) All fire spread is disabled.
+[08:18:27 INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[08:18:27 INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[08:18:27 INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[08:18:27 INFO]: [WorldGuard] (world_the_end) Lava fire is blocked.
+[08:18:27 INFO]: [WorldGuard] (world_the_end) All fire spread is disabled.
+[08:18:27 INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[08:18:27 INFO]: [WorldGuard] Loading region data...
+[08:18:27 INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5.0-b727
+[08:18:27 INFO]: -------- World Settings For [survival] --------
+[08:18:27 INFO]: Cactus Growth Modifier: 100%
+[08:18:27 INFO]: Cane Growth Modifier: 100%
+[08:18:27 INFO]: Melon Growth Modifier: 100%
+[08:18:27 INFO]: Mushroom Growth Modifier: 100%
+[08:18:27 INFO]: Pumpkin Growth Modifier: 100%
+[08:18:27 INFO]: Sapling Growth Modifier: 100%
+[08:18:27 INFO]: Wheat Growth Modifier: 100%
+[08:18:27 INFO]: NetherWart Growth Modifier: 100%
+[08:18:27 INFO]: Vine Growth Modifier: 100%
+[08:18:27 INFO]: Cocoa Growth Modifier: 100%
+[08:18:27 INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[08:18:27 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:18:27 INFO]: Mob Spawn Range: 4
+[08:18:27 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[08:18:27 INFO]: Random Lighting Updates: false
+[08:18:27 INFO]: Structure Info Saving: true
+[08:18:27 INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[08:18:27 INFO]: Max TNT Explosions: 100
+[08:18:27 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:18:27 INFO]: Item Despawn Rate: 6000
+[08:18:27 INFO]: Item Merge Radius: 2.5
+[08:18:27 INFO]: Arrow Despawn Rate: 1200
+[08:18:27 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:18:27 INFO]: View Distance: 10
+[08:18:27 INFO]: Experience Merge Radius: 3.0
+[08:18:27 INFO]: Zombie Aggressive Towards Villager: true
+[08:18:27 INFO]: Nerfing mobs spawned from spawners: false
+[08:18:27 INFO]: Preparing start region for level 3 (Seed: 2663100409936225984)
+[08:18:28 INFO]: Preparing spawn area for survival, 52%
+[08:18:29 INFO]: [WorldGuard] (survival) TNT ignition is PERMITTED.
+[08:18:29 INFO]: [WorldGuard] (survival) Lighters are PERMITTED.
+[08:18:29 INFO]: [WorldGuard] (survival) Lava fire is blocked.
+[08:18:29 INFO]: [WorldGuard] (survival) All fire spread is disabled.
+[08:18:29 INFO]: [WorldGuard] Loaded configuration for world 'survival'
+[08:18:29 INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[08:18:29 INFO]: [Multiverse-Core] Version 2.5.0-b727 (API v20) Enabled - By Rigby, fernferret, lithium3141, main-- and dumptruckman
+[08:18:29 INFO]: [SkinsRestorer] Enabling SkinsRestorer v13.5-SNAPSHOT
+[08:18:29 INFO]: [SkinsRestorer] Detected Minecraft v1_12_R1, using UniversalSkinFactory.
+[08:18:29 INFO]: [SuperTrails] Enabling SuperTrails v9.6.7
+[08:18:29 WARN]: [AutoSaveWorld] Plugin SuperTrails attempted to establish connection https://raw.githubusercontent.com/kvq/trailsupdate/master/up in main server thread
+[08:18:29 WARN]: [AutoSaveWorld] Plugin SuperTrails attempted to establish connection socket://raw.githubusercontent.com:443 in main server thread
+[08:18:29 INFO]:  
+[08:18:29 INFO]: === Super Trails ===
+[08:18:29 INFO]: SuperTrails 9.6.7 for MC 1.12 enabled
+[08:18:29 INFO]: Thank you for using !
+[08:18:29 INFO]: =====================
+[08:18:29 INFO]:  
+[08:18:29 INFO]: [iDisguise] Enabling iDisguise v5.6.3
+[08:18:29 INFO]: [iDisguise] iDisguise 5.6.3 enabled!
+[08:18:29 INFO]: [ServerMotd] Enabling ServerMotd v1.3
+[08:18:29 INFO]: [ServerMotd] ServerMotd v1.4 enabled correctly!
+[08:18:29 INFO]: [ImageOnMap] Enabling ImageOnMap v2.99
+[08:18:30 INFO]: [ImageOnMap] Loaded 1 player map files.
+[08:18:30 INFO]: [HeadDrops] Enabling HeadDrops v2.0
+[08:18:30 INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[08:18:30 INFO]: [PermissionsEx] Initializing file backend
+[08:18:30 INFO]: [PermissionsEx] Permissions file successfully reloaded
+[08:18:30 INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[08:18:30 INFO]: [Vault][Permission] PermissionsEx hooked.
+[08:18:30 INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
+[08:18:30 INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v2.5.0-b751
+[08:18:30 INFO]: [Multiverse-Portals] - Version 2.5.0-b751 Enabled - By Rigby and fernferret
+[08:18:30 WARN]: [HeadDrops] Updater: Could not compare versions.
+[08:18:31 INFO]: [MVPLogging] 1 - Portals(s) loaded
+[08:18:31 INFO]: [Multiverse-Portals] Found WorldEdit. Using it for selections.
+[08:18:31 INFO]: [CustomTabBukkit] Enabling CustomTabBukkit v1.3
+[08:18:31 INFO]: [ChestShop] Enabling ChestShop v3.8.12
+[08:18:31 ERROR]: WARNING: you seem to not be using the Xerial SQLite driver.  See ORMLite docs on SQLite: http://ormlite.com/docs/sqlite
+[08:18:31 INFO]: creating table 'items'
+[08:18:31 INFO]: executed create table statement changed 0 rows: CREATE TABLE IF NOT EXISTS `items` (`id` INTEGER PRIMARY KEY AUTOINCREMENT , `code` VARCHAR NOT NULL ,  UNIQUE (`code`)) 
+[08:18:31 ERROR]: WARNING: you seem to not be using the Xerial SQLite driver.  See ORMLite docs on SQLite: http://ormlite.com/docs/sqlite
+[08:18:31 INFO]: creating table 'accounts'
+[08:18:31 INFO]: creating index 'accounts_shortName_idx' for table 'accounts
+[08:18:31 INFO]: executed create table statement changed 0 rows: CREATE TABLE IF NOT EXISTS `accounts` (`lastSeenName` VARCHAR NOT NULL , `name` VARCHAR NOT NULL , `shortName` VARCHAR NOT NULL , `uuid` VARCHAR NOT NULL , PRIMARY KEY (`name`) ) 
+[08:18:31 INFO]: executed create table statement changed 0 rows: CREATE INDEX IF NOT EXISTS `accounts_shortName_idx` ON `accounts` ( `shortName` )
+[08:18:31 INFO]: [ChestShop] Vault loaded! Found an economy plugin!
+[08:18:31 INFO]: [Essentials] Enabling Essentials v2.0.1-b491
+[08:18:31 INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[08:18:31 INFO]: [Essentials] Using Reflection based provider as spawn egg provider.
+[08:18:31 INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[08:18:31 INFO]: Using locale en_US
+[08:18:31 INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[08:18:31 INFO]: [Vault][Economy] Essentials Economy hooked.
+[08:18:31 INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
+[08:18:31 INFO]: [SimpleRename] Enabling SimpleRename v10.0
+[08:18:31 INFO]: SimpleRename enabled!
+[08:18:32 INFO]: [MarriageMaster] Enabling MarriageMaster v1.31.8
+[08:18:32 INFO]: [MarriageMaster] Config Version: 28 => no update needed
+[08:18:32 INFO]: [MarriageMaster] Config loaded
+[08:18:32 INFO]: [MarriageMaster] Language Version: 19 => no update needed
+[08:18:32 INFO]: [MarriageMaster] Checking for updates ...
+[08:18:32 INFO]: [MarriageMaster] Marriage Master has been enabled!
+[08:18:32 INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.2.6
+[08:18:32 INFO]: [Citizens] Enabling Citizens v2.0.22-SNAPSHOT (build 1487)
+[08:18:32 INFO]: [Shopkeepers] Enabling Shopkeepers v1.82
+[08:18:32 INFO]: [EssentialsChat] Enabling EssentialsChat v2.0.1-b491
+[08:18:32 INFO]: [AddLight] Enabling AddLight v4.2.0
+[08:18:32 INFO]: ------------------------------ AddLight 4.2.0 ------------------------------
+[08:18:32 INFO]: AddLight is enable ...
+[08:18:32 INFO]: Integration with WorldEdit
+[08:18:32 INFO]: Integration with Vault
+[08:18:32 INFO]: ----------------------------------------------------------------------------
+[08:18:32 INFO]: [SuperVanish] Enabling SuperVanish v6.0.4
+[08:18:32 INFO]: [SuperVanish] Please install ProtocolLib to be able to use all SuperVanish features: https://www.spigotmc.org/resources/protocollib.1997/
+[08:18:32 INFO]: [SuperVanish] Hooked into SuperTrails
+[08:18:32 INFO]: [SuperVanish] Hooked into Essentials
+[08:18:32 INFO]: [SuperVanish] Hooked into Citizens
+[08:18:32 INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.0.1-b491
+[08:18:32 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[08:18:33 INFO]: Done (12.354s)! For help, type "help" or "?"
+[08:18:33 INFO]: Starting GS4 status listener
+[08:18:33 INFO]: Query running on 185.38.248.184:25955
+[08:18:33 INFO]: [Skript] Loading variables...
+[08:18:33 INFO]: [Skript] Loaded 0 variables in 0.0 seconds
+[08:18:33 INFO]: [Skript] All scripts loaded without errors.
+[08:18:33 INFO]: [Skript] Loaded 2 scripts with a total of 2 triggers and 0 commands in 0.05 seconds
+[08:18:33 INFO]: [Skript] Finished loading.
+[08:18:33 INFO]: [HolographicDisplays] Found a new version available: v2.3.1
+[08:18:33 INFO]: [HolographicDisplays] Download it on Bukkit Dev:
+[08:18:33 WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 24
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[08:18:33 WARN]: [ChestShop] Plugin ChestShop v3.8.12 generated an exception while executing task 27
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.Acrobot.ChestShop.Metrics.postPlugin(Metrics.java:335) ~[?:?]
+	at com.Acrobot.ChestShop.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at com.Acrobot.ChestShop.Metrics$1.run(Metrics.java:223) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[08:18:33 INFO]: [HolographicDisplays] dev.bukkit.org/bukkit-plugins/holographic-displays
+[08:18:33 WARN]: [Essentials] Plugin Essentials v2.0.1-b491 generated an exception while executing task 49
+org.yaml.snakeyaml.constructor.ConstructorException: Can't construct a java object for tag:yaml.org,2002:com.earth2me.essentials.settings.Spawns; exception=java.lang.NoSuchFieldException: typeDefinitions
+ in 'reader', line 1, column 1:
+    spawns: 
+    ^
+
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructYamlObject.construct(Constructor.java:313) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructDocument(BaseConstructor.java:161) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:147) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:467) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at com.earth2me.essentials.storage.YamlStorageReader.load(YamlStorageReader.java:41) ~[?:?]
+	at com.earth2me.essentials.storage.AbstractDelayedYamlFileReader.run(AbstractDelayedYamlFileReader.java:33) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+Caused by: org.yaml.snakeyaml.error.YAMLException: java.lang.NoSuchFieldException: typeDefinitions
+	at com.earth2me.essentials.storage.BukkitConstructor$ConstructBukkitMapping.constructJavaBean2ndStep(BukkitConstructor.java:231) ~[?:?]
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructMapping.construct(Constructor.java:149) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at com.earth2me.essentials.storage.BukkitConstructor$ConstructBukkitMapping.construct(BukkitConstructor.java:217) ~[?:?]
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructYamlObject.construct(Constructor.java:308) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	... 13 more
+Caused by: java.lang.NoSuchFieldException: typeDefinitions
+	at java.lang.Class.getDeclaredField(Class.java:2070) ~[?:1.8.0_66]
+	at com.earth2me.essentials.storage.BukkitConstructor$ConstructBukkitMapping.constructJavaBean2ndStep(BukkitConstructor.java:224) ~[?:?]
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructMapping.construct(Constructor.java:149) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at com.earth2me.essentials.storage.BukkitConstructor$ConstructBukkitMapping.construct(BukkitConstructor.java:217) ~[?:?]
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructYamlObject.construct(Constructor.java:308) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	... 13 more
+[08:18:33 WARN]: [Essentials] Plugin Essentials v2.0.1-b491 generated an exception while executing task 28
+org.yaml.snakeyaml.constructor.ConstructorException: Can't construct a java object for tag:yaml.org,2002:com.earth2me.essentials.settings.Jails; exception=java.lang.NoSuchFieldException: typeDefinitions
+ in 'reader', line 1, column 1:
+    jails: 
+    ^
+
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructYamlObject.construct(Constructor.java:313) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructDocument(BaseConstructor.java:161) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:147) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:467) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at com.earth2me.essentials.storage.YamlStorageReader.load(YamlStorageReader.java:41) ~[?:?]
+	at com.earth2me.essentials.storage.AbstractDelayedYamlFileReader.run(AbstractDelayedYamlFileReader.java:33) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+Caused by: org.yaml.snakeyaml.error.YAMLException: java.lang.NoSuchFieldException: typeDefinitions
+	at com.earth2me.essentials.storage.BukkitConstructor$ConstructBukkitMapping.constructJavaBean2ndStep(BukkitConstructor.java:231) ~[?:?]
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructMapping.construct(Constructor.java:149) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at com.earth2me.essentials.storage.BukkitConstructor$ConstructBukkitMapping.construct(BukkitConstructor.java:217) ~[?:?]
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructYamlObject.construct(Constructor.java:308) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	... 13 more
+Caused by: java.lang.NoSuchFieldException: typeDefinitions
+	at java.lang.Class.getDeclaredField(Class.java:2070) ~[?:1.8.0_66]
+	at com.earth2me.essentials.storage.BukkitConstructor$ConstructBukkitMapping.constructJavaBean2ndStep(BukkitConstructor.java:224) ~[?:?]
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructMapping.construct(Constructor.java:149) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at com.earth2me.essentials.storage.BukkitConstructor$ConstructBukkitMapping.construct(BukkitConstructor.java:217) ~[?:?]
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructYamlObject.construct(Constructor.java:308) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	... 13 more
+[08:18:33 INFO]: [Citizens] Loaded 52 NPCs.
+[08:18:33 INFO]: [Vault] Checking for Updates ... 
+[08:18:33 WARN]: [Vault] Stable Version: 1.7.1 is out! You are still running version: 1.5.6
+[08:18:33 WARN]: [Vault] Update at: http://dev.bukkit.org/server-mods/vault
+[08:18:33 WARN]: [SpigetUpdate] Invalid SemVer versions specified [135-SNAPSHOT] [135]
+[08:18:33 INFO]: [SkinsRestorer] ----------------------------------------------
+[08:18:33 INFO]: [SkinsRestorer]     +===============+
+[08:18:33 INFO]: [SkinsRestorer]     | SkinsRestorer |
+[08:18:33 INFO]: [SkinsRestorer]     +===============+
+[08:18:33 INFO]: [SkinsRestorer] ----------------------------------------------
+[08:18:33 INFO]: [SkinsRestorer]     Current version: 13.5-SNAPSHOT
+[08:18:33 INFO]: [SkinsRestorer]     This is the latest version!
+[08:18:33 INFO]: [SkinsRestorer] ----------------------------------------------
+[08:18:34 INFO]: [Skript] A new version of Skript is available: 2.3-alpha4 (you're currently running 2.2-dev29)
+[08:18:35 INFO]: [iDisguise] An update is available: iDisguise 5.7.3
+[08:18:35 INFO]: [iDisguise] You can enable automatic updates in the config file.
+[08:18:35 INFO]: [AddLight 4.2.0] Successfully started Metrics
+[08:18:35 INFO]: [AddLight 4.2.0] See http://bstats.org/plugin/bukkit/AddLight
+[08:18:43 INFO]: [AddLight 4.2.0] You are running the latest version.
