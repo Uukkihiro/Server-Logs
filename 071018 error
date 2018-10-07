@@ -1,0 +1,86 @@
+[13:13:53 WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 21
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[13:13:53 WARN]: [ChestShop] Plugin ChestShop v3.8.12 generated an exception while executing task 24
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.Acrobot.ChestShop.Metrics.postPlugin(Metrics.java:335) ~[?:?]
+	at com.Acrobot.ChestShop.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at com.Acrobot.ChestShop.Metrics$1.run(Metrics.java:223) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[13:13:53 WARN]: [Essentials] Plugin Essentials v2.0.1-b491 generated an exception while executing task 46
+org.yaml.snakeyaml.constructor.ConstructorException: Can't construct a java object for tag:yaml.org,2002:com.earth2me.essentials.settings.Spawns; exception=java.lang.NoSuchFieldException: typeDefinitions
+ in 'reader', line 1, column 1:
+    spawns: 
+    ^
+
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructYamlObject.construct(Constructor.java:313) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructDocument(BaseConstructor.java:161) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:147) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:467) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at com.earth2me.essentials.storage.YamlStorageReader.load(YamlStorageReader.java:41) ~[?:?]
+	at com.earth2me.essentials.storage.AbstractDelayedYamlFileReader.run(AbstractDelayedYamlFileReader.java:33) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+Caused by: org.yaml.snakeyaml.error.YAMLException: java.lang.NoSuchFieldException: typeDefinitions
+	at com.earth2me.essentials.storage.BukkitConstructor$ConstructBukkitMapping.constructJavaBean2ndStep(BukkitConstructor.java:231) ~[?:?]
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructMapping.construct(Constructor.java:149) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at com.earth2me.essentials.storage.BukkitConstructor$ConstructBukkitMapping.construct(BukkitConstructor.java:217) ~[?:?]
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructYamlObject.construct(Constructor.java:308) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	... 13 more
+Caused by: java.lang.NoSuchFieldException: typeDefinitions
+	at java.lang.Class.getDeclaredField(Class.java:2070) ~[?:1.8.0_66]
+	at com.earth2me.essentials.storage.BukkitConstructor$ConstructBukkitMapping.constructJavaBean2ndStep(BukkitConstructor.java:224) ~[?:?]
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructMapping.construct(Constructor.java:149) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at com.earth2me.essentials.storage.BukkitConstructor$ConstructBukkitMapping.construct(BukkitConstructor.java:217) ~[?:?]
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructYamlObject.construct(Constructor.java:308) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	... 13 more
+[13:13:53 WARN]: [Essentials] Plugin Essentials v2.0.1-b491 generated an exception while executing task 25
+org.yaml.snakeyaml.constructor.ConstructorException: Can't construct a java object for tag:yaml.org,2002:com.earth2me.essentials.settings.Jails; exception=java.lang.NoSuchFieldException: typeDefinitions
+ in 'reader', line 1, column 1:
+    jails: 
+    ^
+
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructYamlObject.construct(Constructor.java:313) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructDocument(BaseConstructor.java:161) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:147) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:467) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at com.earth2me.essentials.storage.YamlStorageReader.load(YamlStorageReader.java:41) ~[?:?]
+	at com.earth2me.essentials.storage.AbstractDelayedYamlFileReader.run(AbstractDelayedYamlFileReader.java:33) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+Caused by: org.yaml.snakeyaml.error.YAMLException: java.lang.NoSuchFieldException: typeDefinitions
+	at com.earth2me.essentials.storage.BukkitConstructor$ConstructBukkitMapping.constructJavaBean2ndStep(BukkitConstructor.java:231) ~[?:?]
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructMapping.construct(Constructor.java:149) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at com.earth2me.essentials.storage.BukkitConstructor$ConstructBukkitMapping.construct(BukkitConstructor.java:217) ~[?:?]
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructYamlObject.construct(Constructor.java:308) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	... 13 more
+Caused by: java.lang.NoSuchFieldException: typeDefinitions
+	at java.lang.Class.getDeclaredField(Class.java:2070) ~[?:1.8.0_66]
+	at com.earth2me.essentials.storage.BukkitConstructor$ConstructBukkitMapping.constructJavaBean2ndStep(BukkitConstructor.java:224) ~[?:?]
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructMapping.construct(Constructor.java:149) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	at com.earth2me.essentials.storage.BukkitConstructor$ConstructBukkitMapping.construct(BukkitConstructor.java:217) ~[?:?]
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructYamlObject.construct(Constructor.java:308) ~[spigot_1.12.2.jar:git-Spigot-642f6d2-6103339]
+	... 13 more
